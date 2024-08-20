@@ -322,8 +322,8 @@ template {
 .card {
   padding: 24px;
   max-width: 384px;
-  border: 1px solid var(--gray-950);
-  background-color: var(--white);
+  border: 1px solid hsl(0, 0%, 7%);
+  background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
   box-sizing: border-box;
   box-shadow: 8px 8px 0 0 #000;
@@ -334,7 +334,7 @@ template {
 .card__svg {
   background-image: url("/assets/images/illustration-article.svg");
   height: 200px;
-  fill: var(--yellow);
+  fill: hsl(47, 88%, 63%);
   background-repeat: no-repeat;
   border-radius: 10px;
 }
@@ -343,11 +343,11 @@ template {
 }
 .card__tag {
   padding: 4px 12px;
-  background-color: var(--yellow);
+  background-color: hsl(47, 88%, 63%);
   font-weight: 800;
   font-size: 0.875rem;
   line-height: 150%;
-  color: var(--gray-950);
+  color: hsl(0, 0%, 7%);
   margin-bottom: 12px;
   border-radius: 4px;
   width: 82px;
@@ -361,7 +361,7 @@ template {
 .card__date {
   font-weight: 500;
   font-size: 0.875rem;
-  color: var(--gray-950);
+  color: hsl(0, 0%, 7%);
   line-height: 150%;
 }
 @media (max-width: 375px) {
@@ -373,10 +373,10 @@ template {
   font-weight: 800;
   font-size: 1.5rem;
   line-height: 150%;
-  color: var(--gray-950);
+  color: hsl(0, 0%, 7%);
 }
 .card__title:hover {
-  color: var(--yellow);
+  color: hsl(47, 88%, 63%);
   cursor: pointer;
 }
 @media (max-width: 375px) {
@@ -387,7 +387,7 @@ template {
 .card__description {
   font-weight: 500;
   font-size: 1rem;
-  color: var(--gray-500);
+  color: hsl(0, 0%, 42%);
   line-height: 150%;
 }
 @media (max-width: 375px) {
@@ -408,7 +408,7 @@ template {
   font-weight: 800;
   font-size: 0.875rem;
   line-height: 150%;
-  color: var(--gray-950);
+  color: hsl(0, 0%, 7%);
 }
 @media (max-width: 375px) {
   .card__author-name {
@@ -416,19 +416,11 @@ template {
   }
 }
 
-:root {
-  --yellow: hsl(47, 88%, 63%);
-  --gray-500: hsl(0, 0%, 42%);
-  --gray-950: hsl(0, 0%, 7%);
-  --white: hsl(0, 0%, 100%);
-  --primary-font: "Figtree", sans-serif;
-}
-
 html,
 body {
   min-height: 100vh;
-  background-color: var(--yellow);
-  font-family: var(--primary-font);
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
 }
 
 /*# sourceMappingURL=styles.css.map */
